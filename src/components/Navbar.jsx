@@ -4,7 +4,7 @@ import logo from '../assets/tour-buddy-logo.png';
 function Navbar() {
 
 return (
-    <div className='bg-base-100 border-b-2 border-[rgb(230, 230, 230)]'>
+    <div className='bg-base-100 border-b-2 border-[rgb(230, 230, 230)] sticky z-10 top-0 '>
         <div className="navbar w-11/12 mx-auto">
   <div className="navbar-start">
     <div className="dropdown">

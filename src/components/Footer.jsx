@@ -14,7 +14,7 @@ function Footer() {
    
   <select className="select bg-transparent text-[#FFFFFF99] border-[#FFFFFF33] mr-14 mt-5 mb-8 w-full max-w-xs">
   <option disabled selected className='bg-black text-white'>
-  <img src={flag} alt="" />English (UK)</option>
+  <img src={flag} alt="" /> English (UK)</option>
   <option className='bg-gray-700 text-white'>English (USA)</option>
   <option className='bg-gray-700 text-white'>Bangla</option>
   </select>

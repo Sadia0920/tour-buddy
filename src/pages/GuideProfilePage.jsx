@@ -1,5 +1,4 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import FooterGuide from '../components/FooterGuide'
 import Card from '../components/card'
@@ -12,7 +11,7 @@ export default function GuideProfilePage() {
     <div>
         <Navbar></Navbar>
         <div className='min-h-[calc(100vh-200px-195px)] w-10/12 mx-auto'>
-        <h2 className='text-xl font-medium mt-28 mb-12'>Your Selected Guide:</h2>
+        <h2 className='text-xl font-medium mt-20 mb-12'>Your Selected Guide:</h2>
             <div className='flex items-center'>
             <Card></Card>
             <button className='btn bg-[#13253F] text-white text-xl text-center rounded-3xl px-12 ml-10'>Hire Me</button>
@@ -34,7 +33,9 @@ export default function GuideProfilePage() {
         <h2 className='text-xl font-medium mt-16'>Customer Review</h2>
         <Progress></Progress>
         <ReviewCard></ReviewCard>
-        <button className='btn w-full mx-auto text-[#7BBCB0] underline mt-12 mb-32 text-sm font-semibold bg-transparent border-none'>View More Comments</button>
+        <div className='w-1/5 mx-auto'>
+        <button className='btn text-[#7BBCB0] underline mt-12 mb-32 text-sm font-semibold bg-transparent border-none'>View More Comments</button>
+        </div>
 
 
         </div>
