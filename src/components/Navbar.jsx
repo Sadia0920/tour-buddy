@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/tour-buddy-logo.png';
 
 function Navbar() {
@@ -24,9 +25,9 @@ return (
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
+        <li><NavLink to='/'>Guide Profile</NavLink></li>
+        <li><NavLink to='/payment'>Payment</NavLink></li>
         <li><a>About Us</a></li>
-        <li><a>Our Most Rated Guides</a></li>
         <li><a>Our Packages</a></li>
         <li><a>Most Desired Places</a></li>
       </ul>
@@ -36,9 +37,9 @@ return (
   <div className="navbar-end w-full">
   <div className="hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li><a>Home</a></li>
+    <li><NavLink to='/'>Guide Profile</NavLink></li>
+    <li><NavLink to='/payment'>Payment</NavLink></li>
     <li><a>About Us</a></li>
-    <li><a>Our Most Rated Guides</a></li>
     <li><a>Our Packages</a></li>
     <li><a>Most Desired Places</a></li>
     </ul>

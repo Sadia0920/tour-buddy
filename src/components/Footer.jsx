@@ -8,7 +8,7 @@ function Footer() {
 
     return (
      <div className="bg-[#13253F] text-white">
-<footer className="footer  w-11/12 mx-auto py-10">
+<footer className="footer justify-between  w-11/12 mx-auto py-10">
   <nav>
   <img className='w-36' src={logo} alt="" />
    
@@ -55,7 +55,7 @@ function Footer() {
   <aside className="grid-flow-col items-center">
     <p className='text-[#FFFFFF99]'>Copyright {new Date().getFullYear()} Tour Buddy. All Rights Reserved</p>
   </aside>
-  <nav className="grid-flow-col gap-4 lg:mr-32 md:place-self-center md:justify-self-end">
+  <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
