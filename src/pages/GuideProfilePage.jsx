@@ -12,18 +12,18 @@ export default function GuideProfilePage() {
         <Navbar></Navbar>
         <div className='min-h-[calc(100vh-200px-195px)] w-10/12 mx-auto'>
         <h2 className='text-xl font-medium mt-20 mb-12'>Your Selected Guide:</h2>
-            <div className='flex items-center'>
+            <div className='lg:flex items-center'>
             <Card></Card>
-            <button className='btn bg-[#13253F] text-white text-xl text-center rounded-3xl px-12 ml-10'>Hire Me</button>
+            <button className='btn bg-[#13253F] lg:mt-0 mt-8 text-white text-xl text-center rounded-3xl px-12 ml-10'>Hire Me</button>
             </div>
 
-        <div className='flex justify-between my-9'>
+        <div className='flex md:flex-row flex-col justify-between my-9'>
         <div>
         <h1 className='mb-5 text-4xl font-bold text-[#1C2B38]'>4.0 < span className='text-[#778088] font-light text-xl ml-5'>14 Reviews</span></h1>
         <RatingBig></RatingBig>
         </div>
 
-        <div className='bg-[#E6E6E6] py-6 px-12 rounded-[30px]'>
+        <div className='bg-[#E6E6E6]  md:mt-0 mt-5  py-6 px-12 rounded-[30px]'>
         <p><strong>Language:</strong> Bangla & English</p>
       <p><strong>Phone Number:</strong> 01626000513</p>
       <p><strong>Experience:</strong> 7 years</p>

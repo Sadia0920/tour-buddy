@@ -4,10 +4,10 @@ import Rating from './Rating';
 export default function Card() {
     return (
     <div>
-    <div className="card flex-row bg-base-100 w-[850px] shadow-xl p-0">
+    <div className="card flex-col md:flex-row bg-base-100 md:w-[500px] lg:w-[850px] shadow-xl p-0">
   <figure>
     <img
-    className='h-full rounded-md'
+    className='lg:h-full rounded-md'
     src={image}
       alt="Guide" />
   </figure>
@@ -27,7 +27,7 @@ export default function Card() {
     <p className='text-[#495560]'><i class="fa-solid fa-users-between-lines mr-2"></i>Family Plan</p>
   </div>
   </div>
-  <div className='ml-32 text-right'>
+  <div className='lg:ml-32 text-left lg:text-right'>
     <h2 className="card-title text-[#7BBCB0] font-bold">Tk 250.00</h2>
     <p className='text-[#778088] text-sm'>per person</p>
   </div>

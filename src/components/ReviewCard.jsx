@@ -35,7 +35,7 @@ export default function ReviewCard() {
    </div>
   </div>
   <div >
-   <div className='flex justify-between items-center mb-3'>
+   <div className='flex flex-col md:flex-row justify-between items-center mb-3'>
    <h2 className="card-title text-[15px] text-[#1C2B38] font-bold">Good tour, really well organised</h2>
    <p className='text-[#778088] text-sm font-bold'>Helpful? <span className='text-[#7BBCB0] text-sm font-semibold'>Yes</span> </p>
    </div>
@@ -79,7 +79,7 @@ export default function ReviewCard() {
    </div>
   </div>
   <div >
-   <div className='flex justify-between items-center mb-3'>
+   <div className='flex flex-col md:flex-row justify-between items-center mb-3'>
    <h2 className="card-title text-[15px] text-[#1C2B38] font-bold">Informative But Disappointed Not seeing Changing Of The Guide</h2>
    <p className='text-[#778088] text-sm font-bold'>Helpful? <span className='text-[#7BBCB0] text-sm font-semibold'>Yes</span> </p>
    </div>
